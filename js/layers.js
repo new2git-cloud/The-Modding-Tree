@@ -32,4 +32,7 @@ title: "The First Upgrade"
 description: "Gain 1 Point per second."
 cost: new Decimal("1")
 }
-if (hasUpgrade('P', 11)) gain = gain.plus(1)
+
+{if(hasUpgrade('p', 11)) gain = gain.plus(1)
+
+}
