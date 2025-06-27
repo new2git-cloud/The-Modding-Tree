@@ -1,4 +1,4 @@
-let modInfo = {7928453672
+let modInfo = {7928453672}
 	name: "My first tmt tod",
 	author: "nobody",
 	pointsName: "points",
