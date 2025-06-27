@@ -33,6 +33,6 @@ description: "Gain 1 Point per second."
 cost: new Decimal("1")
 }
 
-{if(hasUpgrade('prestige', 11)) gain = gain.plus(1)
+{if (hasUpgrade('p', 11)) gain = gain.plus(1)
 
 }
