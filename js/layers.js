@@ -26,11 +26,12 @@ addLayer("p", {
     ],
     layerShown(){return true}
 })
-
-{upgrades: 11
+upgrades: {
+11; {
 title: "The First Upgrade"
 description: "Gain 1 Point per second."
 cost: new Decimal("1")
+}
 }
 
 {if (hasUpgrade('p', 11)) gain = gain.plus(1)
