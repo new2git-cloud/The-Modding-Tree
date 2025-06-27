@@ -1,5 +1,5 @@
 let modInfo = {
-	name: "My first tmt tod",
+	name: "My first tmt mod",
 	author: "new2git-cloud",
 	pointsName: "points",
 	modFiles: ["layers.js", "tree.js"],
@@ -19,7 +19,8 @@ let VERSION = {
 let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
 		- Added things.<br>
-		- Added stuff.`
+		- Added stuff.
+		- Endgame: 1e280,000,000 Points`
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
 
