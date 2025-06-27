@@ -1,6 +1,6 @@
-let modInfo = {7928453672}
+let modInfo = {
 	name: "My first tmt tod",
-	author: "nobody",
+	author: "new2git-cloud",
 	pointsName: "points",
 	modFiles: ["layers.js", "tree.js"],
 
@@ -13,7 +13,7 @@ let modInfo = {7928453672}
 // Set your version in num and name
 let VERSION = {
 	num: "0.0",
-	name: "Literally nothing",
+	name: "Made by new2git-cloud",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
