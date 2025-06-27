@@ -6,7 +6,7 @@ addLayer("p", {
         unlocked: true,
 		points: new Decimal(0),
     }},
-    color: "#4BDC13",
+    color: "#FFFFFF",
     requires: new Decimal(10), // Can be a function that takes requirement increases into account
     resource: "prestige points", // Name of prestige currency
     baseResource: "points", // Name of resource prestige is based on
@@ -26,3 +26,13 @@ addLayer("p", {
     ],
     layerShown(){return true}
 })
+
+upgrades: {11
+title: "The First Upgrade"
+description: "Gain 1 Point per second."
+cost: new Decimal("1")
+}
+if (hasUpgrade('p', 11)) gain = gain.plus(1)
+upgrades: {12
+
+}

@@ -18,9 +18,9 @@ let VERSION = {
 
 let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
-		- Added things.<br>
-		- Added stuff.
-		- Endgame: 1e280,000,000 Points`
+		- Added Prestige Points, Middle-Endgame points and Boost points.
+		- Added Upgrades, Milestones and Challenges.
+		- Endgame: 1e100 Points`
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
 
@@ -42,7 +42,7 @@ function getPointGen() {
 	if(!canGenPoints())
 		return new Decimal(0)
 
-	let gain = new Decimal(1)
+	let gain = new Decimal(0)
 	return gain
 }
 
