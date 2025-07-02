@@ -12,17 +12,17 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
+	num: "0.1",
 	name: "new2git-cloud",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
-	<h3>v0.0</h3><br>
-		- Added Prestige Points, Middle-Endgame points and Boost points.
+	<h3>v0.1</h3><br>
+		- Added Prestige Points, Middle-Endgame Points, and Omega Points.
 		- Added Upgrades, Milestones and Challenges.
 		- Endgame: 1e100 Points`
 
-let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
+let winText = `Congratulations! You have reached the end and beaten this game, Updates are coming soon.`
 
 // If you add new functions anywhere inside of a layer, and those functions have an effect when called, add them here.
 // (The ones here are examples, all official functions are already taken care of)
@@ -56,7 +56,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	return player.points.gte(new Decimal("e280000000"))
+	return player.points.gte(new Decimal("1e100"))
 }
 
 

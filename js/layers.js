@@ -25,9 +25,12 @@ addLayer("p", {
         {key: "p", description: "P: Reset for prestige points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
     layerShown(){return true}
-})
-upgrades: {
-11; {
+}),
 
-}
-}
+    upgrades: {
+        11: {
+            title: "The First Upgrade",
+    description: "Start gaining 1 point gain every second.",
+    cost: new Decimal(1),
+        },
+    },
