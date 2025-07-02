@@ -32,5 +32,8 @@ addLayer("p", {
             title: "The First Upgrade",
     description: "Start gaining 1 point gain every second.",
     cost: new Decimal(1),
+    
         },
     },
+
+    if (hasUpgrade('p', 11)) gain = gain.times(2)
